@@ -1,0 +1,16 @@
+.body {
+  font-family: font-family;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+#product-overview {
+  background-color: green;
+}
+.setion-title {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.setion-title {
+  color: red;
+}
