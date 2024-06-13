@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+  }
+  
+  .content {
+    width: 80em;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    box-shadow: red;
+  }
+  
+  .header {
+    height: 50px;
+    background-color: #1a4e8e;
+    color: #ffffff;
+    padding: 3em;
+    text-align: center;
+  }
+  
+  .nav {
+    width: 20vw;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .content {
+      width: 200vw;
+    }                                               
+  }
+  a{
+    color: #f7f7f7;
+    display: inline;
+  }
+  .text{
+    display: flex;
+    margin-left: 40px;
+  }
+  .nav li{
+    margin-left: 200px;
+  }
+  .nav input{
+    margin-left: 100px;
+  }
