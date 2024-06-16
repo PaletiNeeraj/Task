@@ -4,8 +4,12 @@
   font-weight: weight;
   font-style: normal;
 }
-#product-overview {
+#product-overview{
   background-color: green;
+  /* text-decoration: underline; */
+}
+#e{
+text-decoration: underline;
 }
 .setion-title {
   color: white;
@@ -13,4 +17,14 @@
 }
 .setion-title {
   color: red;
+}
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   height: 100px;
+   width: 120px;
+   border: 4px solid rgb(42, 0, 105);
+   text-decoration: underline;
+} 
+p:hover{
+   color: green;
 }
