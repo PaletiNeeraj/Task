@@ -1,0 +1,98 @@
+.head {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('pexels-photo-884788.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(26, 9, 74);
+  }
+  
+  .service {
+    flex: 0 1 calc(25% - 1em);
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    background-color: rgb(220, 134, 43);
+    color: aliceblue;
+  }
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-image-width: 10px;
+  }
+  
+  .portfolio-item {
+    flex: 0 1 calc(25% - 1em);
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+   justify-content:center; 
+    padding: 2em;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 40em) {
+    .head {
+      height: 50vh;
+    }
+    .about {
+      padding: 1em;
+    }
+    .services {
+      flex-direction: column;
+    }
+    .service {
+      flex: 0 1 calc(100% - 1em);
+    }
+    .portfolio {
+      flex-direction: column;
+    }
+    .portfolio-item {
+      flex: 0 1 calc(100% - 1em);
+    }
+  }
+  
+  @media screen and (min-width: 40em) {
+    .head{
+      height: 100vh;
+    }
+    .about {
+      padding: 2em;
+    }
+    .services {
+      flex-direction: row;
+    }
+    .service {
+      flex: 0 1 calc(25% - 1em);
+    }
+    .portfolio {
+      flex-direction: row;
+    }
+    .portfolio-item {
+      flex: 0 1 calc(25% - 1em);
+    }
+  }
