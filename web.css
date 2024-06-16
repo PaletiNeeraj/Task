@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger span:nth-child(2) {
+    transform: translateY(7px);
+}
+
+.hamburger span:nth-child(3) {
+    transform: translateY(14px);
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(14px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-14px) rotate(-45deg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.tech{
+    background-image: linear-gradient(to bottom, rgb(223, 20, 20), #e42222);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.tech h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(27, 94, 123);
+color: white;
+
+}
+
+.features i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+.testimonials h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials li {
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonials cite {
+    font-size: 1em;
+    font-style: italic;
+    color: #666;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
